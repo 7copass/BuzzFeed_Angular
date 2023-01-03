@@ -33,7 +33,7 @@ export class QuizComponent implements OnInit {
     this.nextStep()
   }
 
-  async nextStep() {
+  async nextStep()  {
     this.questionIndex += 1;
     if (this.questionMaxIndex > this.questionIndex) {
       this.questionSelected = this.questions[this.questionIndex];
